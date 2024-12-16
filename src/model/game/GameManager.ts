@@ -329,8 +329,8 @@ export default class GameManager {
         new Game("Trombone Champ", "TromboneChamp", "TromboneChamp",
             "TromboneChamp", ["TromboneChamp.exe"], "TromboneChamp_Data",
             "https://thunderstore.io/c/trombone-champ/api/v1/package-listing-index/", EXCLUSIONS,
-            [new StorePlatformMetadata(StorePlatform.STEAM, "1059990")], "TromboneChamp.jpg",
-            new StorePlatformMetadata(StorePlatform.OTHER),
+            [new StorePlatformMetadata(StorePlatform.STEAM, "1059990"), 
+             new StorePlatformMetadata(StorePlatform.OTHER),], "TromboneChamp.jpg",
             GameSelectionDisplayMode.VISIBLE, GameInstanceType.GAME, PackageLoader.BEPINEX, ["tc"]),
 
         new Game("Rogue : Genesia", "RogueGenesia", "RogueGenesia",
